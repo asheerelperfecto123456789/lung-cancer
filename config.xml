@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+	xmlns:gap   = "http://phonegap.com/ns/1.0"
+	id          = "com.gs.helloworld"
+	versionCode = "1"
+	version     = "1.0.0" >
+
+<name>Lung Cancer</name>
+<description>
+	An application to help users to be able to know more about lung cancer
+</description>
+
+<author href="https://build.phonegap.com" email="mygym7514@gmail.com"> Asheer Goburdhun
+</author>
+<plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
+
+<icon src="icon.jpg" platform="android" width="180" height="180" />
+<splash src="splash.png" platform="android" width="320" height="480" />
+</widget>
