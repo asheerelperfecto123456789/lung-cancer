@@ -13,6 +13,9 @@
 <author href="https://build.phonegap.com" email="mygym7514@gmail.com"> Asheer Goburdhun
 </author>
 <plugin name="cordova-plugin-geolocation" spec="~4.0.1" />
+<feature name="Geolocation">
+    <param name="android-package" value="org.apache.cordova.GeoBroker" />
+</feature>
 
 <icon src="icon.jpg" platform="android" width="180" height="180" />
 <splash src="splash.png" platform="android" width="320" height="480" />
